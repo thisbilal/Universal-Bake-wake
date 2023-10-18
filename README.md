@@ -1,2 +1,2 @@
 # Universal Bake wake
- This is a new aggregator web app
+ This is a news aggregator web app
