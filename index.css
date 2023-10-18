@@ -1,14 +1,17 @@
-<<<<<<< HEAD
-*{
-    padding: 0;
+* {
     margin: 0;
-    box-sizing: border-box;
-    background-color: aliceblue;
-=======
-*{
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
-    background-color: aliceblue;
->>>>>>> d183e06b61aafddf6520b7dbcc33dc6e8c749638
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Archivo', sans-serif;;
+}
+
+:root{
+    --bg-color:;
+    --second-bg-color:;
+    --text-color:;
+    --main-color:;
 }
