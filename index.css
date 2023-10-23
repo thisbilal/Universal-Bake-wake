@@ -6,6 +6,68 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: sans-serif;;
+    font-family: Franklin,Arial,Helvetica,sans-serif;
+}
+body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-width: 1533.5px;
+    margin: 0 auto;
+}
+.header{
+    font-size: 3vh; 
+    background: aqua;
+    display: flex; 
+    align-items: center;
+    position: fixed;
+    top: 0;
+    /* on making position fixed child does not follow the parent element rules changes need to be applied again on child element */
+    width: 100%;
+    max-width: 1533.5px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border: none;
+    /* border-bottom: 0.5px solid black; */
+    box-shadow: 0px 5px 4px rgba(0, 0, 0,0.4);
+    z-index: 999;
 }
 
+.left-container{
+    display: flex;
+    align-items: center;
+}
+.right-container{
+    display: flex;
+    align-items: center;
+}
+.Logo{
+    height: 15vh;
+    padding-right: 2vh;
+}
+.left-container  ul ,.right-container ul{
+    display: flex;
+}
+.left-container li ,.right-container li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0vh 4vh;
+}
+.left-container a ,.right-container a{
+    color: black;
+    font-weight: 500;
+}
+
+/* Now we will give a section for our website name*/
+.news-website-name-section{
+    display: flex;
+    margin-top: 15vh;
+    justify-content: center;
+}
+.news-website-name{
+    height: 20vh;
+
+}
